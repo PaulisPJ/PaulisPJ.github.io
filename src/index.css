@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #FF6B00;
+  --color-brand-cream: #FDFBF7;
+  --font-medieval: "MedievalSharp", cursive;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-brand-orange);
+  min-height: 100vh;
+  margin: 0;
+  color: black;
+  font-family: var(--font-medieval);
+  font-size: 16px;
+}
