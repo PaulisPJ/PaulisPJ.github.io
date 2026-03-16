@@ -52,7 +52,7 @@ const MainMenu = () => {
                         }}
                     >
                         <h1
-                            className="font-medieval font-bold text-[clamp(30px,5vw,35px)] whitespace-pre-line text-center px-6 leading-tight select-none ml-5 mr-5"
+                            className="font-medieval font-bold text-[clamp(30px,5.5vw,40px)] whitespace-pre-line text-center px-6 leading-tight select-none ml-5 mr-5"
                         >
                             {t('app_title')}
                         </h1>
