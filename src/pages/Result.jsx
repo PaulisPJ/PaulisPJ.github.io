@@ -58,7 +58,7 @@ const Result = () => {
             <Card className="flex flex-col items-center text-center py-8 relative overflow-hidden">
                 <div
                     className="absolute inset-0 bg-cover bg-center opacity-70 pointer-events-none"
-                    style={{ backgroundImage: `url('/images/${lastAnswerCorrect ? 'koka_siena.png' : 'Akmens_siena.png'}')` }}
+                    style={{ backgroundImage: `url('${lastAnswerCorrect ? '/images_2/koka_siena.png' : '/images/Akmens_siena.png'}')` }}
                 />
                 <div className="relative z-10 w-full flex flex-col items-center">
                     {/* Header with Hint/Fact buttons */}
